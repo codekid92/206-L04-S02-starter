@@ -1,0 +1,19 @@
+body {
+  background: cornflowerblue;
+}
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 575px) {
+  /*575px and lower */
+	body {
+    background:maroon;
+
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1150px) {
+  /*1150 and lower*/
+  body{ 
+    background: olive;
+  }
+}
